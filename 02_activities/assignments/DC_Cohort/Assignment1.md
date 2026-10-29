@@ -14,10 +14,10 @@
     * Open a private window in your browser. Copy and paste the link to your pull request into the address bar. Make sure you can see your pull request properly. This helps the technical facilitator and learning support staff review your submission easily.
 
 Checklist:
-- [ ] Create a branch called `assignment-one`.
-- [ ] Ensure that the repository is public.
-- [ ] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
-- [ ] Verify that the link is accessible in a private browser window.
+- [X] Create a branch called `assignment-one`.
+- [X] Ensure that the repository is public.
+- [X] Review [the PR description guidelines](https://github.com/UofT-DSI/onboarding/blob/main/onboarding_documents/submissions.md#guidelines-for-pull-request-descriptions) and adhere to them.
+- [X] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
 
@@ -211,7 +211,7 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 ```
 Your thoughts...
 
-I am a PhD student at the Factor-Inwentash Faculty of Social Work, and my area of focus is substance use. I came to academia after more than 20 years of working in the mental health and addictions sector at the municipal, provincial, and national levels. One of the data issues I have encountered most often is the way substance use and addiction are categorized and diagnosed across health and human services systems.
+I am a PhD student at the Factor-Inwentash Faculty of Social Work, and my area of focus is substance use. I came to academia after more than 20 years of working in the mental health and substance use sector at the municipal, provincial, and national levels. One of the data issues I have encountered most often is the way substance use and addiction are categorized and diagnosed across health and human services systems.
 
 There are many different definitions of substance use, including legal definitions (e.g., the Controlled Drugs and Substances Act), clinical definitions (e.g., the World Health Organization's International Classification of Diseases, or the American Psychiatric Association’s Diagnostic and Statistical Manual of Mental Disorders), research definitions, and informal labels used within communities. Diagnostic frameworks, electronic health records, and administrative databases are often viewed as objective tools for identifying and treating substance use issues. However, like the database described in the article, these systems reflect social values, political ideologies, and assumptions about health, risk, and acceptable behaviour.
 
@@ -221,6 +221,8 @@ One value embedded in many of these systems is individual responsibility. Diagno
 
 These systems can also reinforce marginalization. For example, Indigenous peoples, racialized communities, people experiencing homelessness, and individuals living with mental health challenges are often overrepresented in substance use databases due to longstanding structural inequalities. Without appropriate context, the data can reinforce stereotypes and obscure the root causes of health disparities.
 
-The article argues that databases do more than record reality; they help define it. I see this in substance use data systems, where diagnostic labels can influence how people are viewed by health care providers, social service agencies, the police and the justice system. Like the family database described in the article, substance use data systems are not neutral. They embed assumptions about health, responsibility, and risk that influence who receives support, how resources are allocated, and how substance use itself is understood. Ultimately, they can perpetuate the idea that addiction is an individual failure rather than a reflection of broader systemic failures.
+The article argues that databases do more than record reality; they help define it. I see this in substance use data systems, where diagnostic labels can influence how people are viewed by health care providers, social service agencies, the police and the justice system. Like the family database described in the article, substance use data systems are not neutral. They embed assumptions about health, responsibility, and risk that influence who receives support, how resources are allocated, and how substance use itself is understood. Ultimately, they can perpetuate the idea that substance use is an individual failure rather than a reflection of broader systemic failures.
+
+<img width="468" height="639" alt="image" src="https://github.com/user-attachments/assets/f217ec01-1ed3-4cf0-ba1d-ee5d6f68f313" />
 
 ```
