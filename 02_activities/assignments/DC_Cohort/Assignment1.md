@@ -210,4 +210,17 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 ```
 Your thoughts...
+
+I am a PhD student at the Factor-Inwentash Faculty of Social Work, and my area of focus is substance use. I came to academia after more than 20 years of working in the mental health and addictions sector at the municipal, provincial, and national levels. One of the data issues I have encountered most often is the way substance use and addiction are categorized and diagnosed across health and human services systems.
+
+There are many different definitions of substance use, including legal definitions (e.g., the Controlled Drugs and Substances Act), clinical definitions (e.g., the World Health Organization's International Classification of Diseases, or the American Psychiatric Association’s Diagnostic and Statistical Manual of Mental Disorders), research definitions, and informal labels used within communities. Diagnostic frameworks, electronic health records, and administrative databases are often viewed as objective tools for identifying and treating substance use issues. However, like the database described in the article, these systems reflect social values, political ideologies, and assumptions about health, risk, and acceptable behaviour.
+
+On one hand, standardized definitions can promote fairness by supporting consistent diagnosis and improving access to treatment, services, and benefits. On the other hand, these categories are not purely technical. Decisions about what constitutes problematic substance use, how severity is measured, and which behaviours are considered signs of disorder are shaped by social, cultural, and historical understandings of addiction.
+
+One value embedded in many of these systems is individual responsibility. Diagnoses typically focus on a person's symptoms and behaviours while paying less attention to the social determinants of health and structural conditions that shape substance use, including poverty, housing instability, trauma, racism, colonization, and limited access to care. As a result, databases can frame substance use primarily as an individual problem rather than as an outcome of broader social and economic inequities.
+
+These systems can also reinforce marginalization. For example, Indigenous peoples, racialized communities, people experiencing homelessness, and individuals living with mental health challenges are often overrepresented in substance use databases due to longstanding structural inequalities. Without appropriate context, the data can reinforce stereotypes and obscure the root causes of health disparities.
+
+The article argues that databases do more than record reality; they help define it. I see this in substance use data systems, where diagnostic labels can influence how people are viewed by health care providers, social service agencies, the police and the justice system. Like the family database described in the article, substance use data systems are not neutral. They embed assumptions about health, responsibility, and risk that influence who receives support, how resources are allocated, and how substance use itself is understood. Ultimately, they can perpetuate the idea that addiction is an individual failure rather than a reflection of broader systemic failures.
+
 ```
