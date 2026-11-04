@@ -192,5 +192,18 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+As someone whose work and research focus on substance use, I found the central argument of the article particularly compelling. The article challenges the common perception that AI and machine learning systems are largely automated and objective. Instead, it highlights the vast amounts of human labour hidden behind AI-based systems, from data labeling and content moderation to the creation and maintenance of datasets. The author's point is that many technologies presented as autonomous are, in reality, dependent on human judgement, expertise, and labour at every stage. 
+
+One of the most important ethical issues raised by the article is human labour. The public often imagines AI systems as operating independently, yet many rely on workers who perform repetitive, low-paid, and sometimes psychologically harmful tasks such as reviewing disturbing content or labelling large quantities of data. This hidden workforce is frequently invisible to users, raising questions about whose labour is valued, who benefits from technological innovation, and who bears its costs. In many ways, AI systems mirror broader social inequalities, where essential work becomes marginalized once it is embedded within broader systems. 
+
+The article also raises concerns about human bias. If machine learning systems are trained based on human-generated data, they inevitably inherit human assumptions, prejudices, and blind spots. This issue is highly relevant to the substance use field. Many datasets used in healthcare, social services, and criminal justice sectors reflect historical patterns of surveillance and intervention. For example, Indigenous peoples, racialized communities, and people experiencing homelessness are often disproportionately represented in substance use and justice system data, not necessarily because they experience higher rates of substance use, but because they are more likely to be monitored, reported, or subjected to institutional intervention. When these data are used to train AI tools, existing inequities can become embedded and reproduced.
+
+The article's broader discussion about the intersection of technology and society also resonates with me, especially considering how substance use issues are categorized. Increasingly, the healthcare system uses electronic health records and AI-assisted decision-making tools to assess service needs, allocate resources and develop treatment options. These systems can create an appearance of objectivity, yet they are built upon human decisions about what data to collect, which outcomes matter, and how risk should be defined. Similar to the examples in the article, AI systems often appear neutral while quietly reflecting social values, institutional priorities and political ideologies. 
+
+The increasing uptake of AI tools in healthcare raise many concerns. If these tools are trained on biased data or are used without sufficient human oversight, they may reinforce stigmatizing narratives about substance use, addiction, mental illnesses, and marginalized communities. They may also generate recommendations and treatment options that overlook the impacts of the social determinants of health, such as poverty, trauma, housing instability, and racism.
+
+My most important takeaway from this article is that technology does not exist on an island, they are part of the ecosystem of human society. AI systems are ultimately built by humans, trained on human data, and shaped by human values. In the substance use field, this means that technological tools are not simply measuring reality; they are also influencing how addiction is understood, who is identified as being "at risk," and which responses and treatment options are prioritized.
+
+<img width="451" height="690" alt="image" src="https://github.com/user-attachments/assets/626ad688-1d0a-4844-856a-4e34114e744a" />
+
 ```
