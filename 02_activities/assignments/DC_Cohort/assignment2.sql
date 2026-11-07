@@ -187,10 +187,29 @@ Think a bit about the row counts: how many distinct vendors, product names are t
 How many customers are there (y). 
 Before your final group by you should have the product of those two queries (x*y).  */
 --QUERY 8
+SELECT COUNT(*)
+FROM customer;
 
-
-
-
+SELECT
+    vendor_name,
+    product_name,
+    COUNT(customer_id) * 5 * original_price AS potential_revenue
+FROM 
+	(SELECT
+        vi.vendor_id,
+        vi.product_id,
+        vi.original_price,
+        c.customer_id
+    FROM vendor_inventory vi
+    CROSS JOIN customer c) x
+JOIN vendor v
+    ON x.vendor_id = v.vendor_id
+JOIN product p
+    ON x.product_id = p.product_id
+GROUP BY
+    vendor_name,
+    product_name,
+    original_price;
 --END QUERY
 
 
@@ -200,20 +219,25 @@ This table will contain only products where the `product_qty_type = 'unit'`.
 It should use all of the columns from the product table, as well as a new column for the `CURRENT_TIMESTAMP`.  
 Name the timestamp column `snapshot_timestamp`. */
 --QUERY 9
+CREATE TABLE product_units AS
 
-
-
-
+SELECT
+    *,
+    CURRENT_TIMESTAMP AS snapshot_timestamp
+FROM product
+WHERE product_qty_type = 'unit';
 --END QUERY
 
 
 /*2. Using `INSERT`, add a new row to the product_units table (with an updated timestamp). 
 This can be any product you desire (e.g. add another record for Apple Pie). */
 --QUERY 10
-
-
-
-
+INSERT INTO product_units
+SELECT
+    *,
+    CURRENT_TIMESTAMP
+FROM product
+WHERE product_name = 'Apple Pie';
 --END QUERY
 
 
@@ -222,10 +246,18 @@ This can be any product you desire (e.g. add another record for Apple Pie). */
 
 HINT: If you don't specify a WHERE clause, you are going to have a bad time.*/
 --QUERY 11
+SELECT
+    product_name,
+    snapshot_timestamp
+FROM product_units
+WHERE product_name = 'Apple Pie';
 
-
-
-
+DELETE FROM product_units
+WHERE product_name = 'Apple Pie'
+AND snapshot_timestamp < 
+	(SELECT MAX(snapshot_timestamp)
+    FROM product_units
+    WHERE product_name = 'Apple Pie');
 --END QUERY
 
 
@@ -246,11 +278,19 @@ Finally, make sure you have a WHERE statement to update the right row,
 	you'll need to use product_units.product_id to refer to the correct row within the product_units table. 
 When you have all of these components, you can run the update statement. */
 --QUERY 12
+ALTER TABLE product_units
+ADD current_quantity INT;
 
+UPDATE product_units
 
+SET current_quantity =
+COALESCE(
+    (SELECT quantity
+        FROM vendor_inventory vi
+        WHERE vi.product_id = product_units.product_id
+        ORDER BY market_date DESC
+        LIMIT 1),
+	0)
 
-
+WHERE product_units.product_id IS NOT NULL;
 --END QUERY
-
-
-
