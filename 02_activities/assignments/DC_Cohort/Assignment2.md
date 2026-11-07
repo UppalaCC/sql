@@ -57,7 +57,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+See my attachment in the comments titled UChandrasekera_BookStore_drawio.pdf
 ```
 
 ***
